@@ -1,19 +1,3 @@
-//Crie um objeto estudante que tenha como atributos: nome (string),
-//  quantidade de faltas (number) e notas (array de números). 
-//  Crie um construtor para ele e importe-o como o módulo estudante
-
-//Nosso objeto estudante terá o método calcularMedia que retorna a 
-// média de suas notas. Também terá um método chamado faltas, 
-// que simplesmente aumenta o número de faltas em 1.
-
-// let estudante = {
-//     nome : "Fulano",
-//     faltas : 5,
-//     notas : [7,8,6,10]
-// }
-
-// console.log(estudante.nome);
-
 function Estudantes (nome, faltas, notas) {
     this.nome = nome;
     this.faltasMax = faltas;
